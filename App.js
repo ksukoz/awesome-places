@@ -16,9 +16,10 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <TextInput
-           style={{width: 300, borderColor: 'black', borderWidth: 1}}
+           style={{width: 300}}
+           placeholder="An awesome string"
            value={this.state.placeName}
-            onChangeText={this.placeNameChangedHandler} />
+           onChangeText={this.placeNameChangedHandler} />
       </View>
     );
   }
@@ -27,8 +28,9 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    padding: 20,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'flex-start'
   },
 });
