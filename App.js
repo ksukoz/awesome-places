@@ -4,6 +4,8 @@ import { StyleSheet, Text, View, TextInput, Button } from 'react-native';
 import PlaceInput from './src/components/PlaceInput/PlaceInput';
 import PlaceList from './src/components/PlaceList/PlaceList';
 
+import placeImage from './src/assets/pexels-photo-842532.jpeg';
+
 export default class App extends React.Component {
   state = {
     places: []
@@ -12,7 +14,11 @@ export default class App extends React.Component {
   placeAddedHandler = placeName => {
     this.setState(prevState => {
       return {
-        places: prevState.places.concat({key: Math.random(), value: placeName})
+        places: prevState.places.concat({
+          key: Math.random(),
+          name: placeName,
+          image: placeImage
+        })
       };
     });
   };  
