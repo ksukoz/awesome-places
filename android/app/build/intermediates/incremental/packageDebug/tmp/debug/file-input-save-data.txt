@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jun 18 18:35:14 EEST 2018
+#Tue Jun 19 00:00:05 EEST 2018
 23.set=NATIVE_RESOURCE
 31.set=NATIVE_RESOURCE
 33.base=C\:\\Users\\Gene\\Desktop\\awesome-places\\android\\app\\build\\intermediates\\assets\\debug

@@ -1,4 +1,4 @@
-#Mon Jun 18 18:34:34 EEST 2018
+#Mon Jun 18 23:59:57 EEST 2018
 base.0=C\:\\Users\\Gene\\Desktop\\awesome-places\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
 path.0=classes.dex
